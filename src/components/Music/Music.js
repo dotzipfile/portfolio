@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import Card from '../../containers/Card/Card';
 
 class Music extends Component {
     render() {
         return (
-            <div>This is a place for music</div>
+            <Card>
+                This is my card
+            </Card>
         );
     }
 }
